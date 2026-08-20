@@ -1,8 +1,16 @@
-# Asus XG-C100F SFP+ Network Adapter
+# Asus [XG-C100F](https://www.asus.com/networking-iot-servers/wired-solutions/all-series/xg-c100f/) SFP+ Network Adapter
 
 Based on the Aquantia AQC10X Chipset Now owned Marvell </br>
 works nice, has nice [Linux public drivers](https://www.marvell.com/support/downloads.html) but creates a lot of Heat. </br>
-There is a sister card with RJ45 Only XG-C100C No SFP+ cage. </br>
+Asus also made a sister card with RJ45 Only [XG-C100C](https://www.asus.com/networking-iot-servers/wired-solutions/all-series/xg-c100c/) No SFP+ cage. </br>
+
+i had many problems in the past with RJ45 connectors, the plastic tab breaks too easy, </br>
+some brands of connectors, save cost on manufacture: the pastic is "the same size", </br>
+but the copper blades that cut the cables and touch the RJ45 connector are smaller. </br>
+
+i wanted to try Fiber optic because i had good times with ADAT Optical Light Pipe. </br>
+
+### The Problem:
 
 The Card Overheats if case fans are less than 1500rpm </br>
 When cards Overheats too much, it shuts down "self-protect" and freeze the PC </br>
@@ -46,11 +54,13 @@ The New Sonnet 10G Solo v2 is Not the same, had different Intel IC </br>
 
 The ASUS is PCIe.v3.x4 </br>
 
-### The Problem: 
-Newer Gamer boards have less PCIe lanes available, </br>
+### The 2nd Problem: 
+Newer High.End Gamer boards have faster PCIe.v5 but less PCIe lanes available, </br>
 intel 12,13,14 LGA1700 has 20 lanes, AM5 has 24 PCIe lanes. </br>
+Older boards used special PCIe bifurcation IC's like Nvidia NF200 to have more PCIe lanes. </br>
 
-most Z790m Z890, X680, B650 boards have PCIe.x1 that is near useless for today technology. </br>
+most modern boards today: </br>
+Z790, Z890, X680e, B650 boards have PCIe.x1 that is near useless for today technology. </br>
 some boards have PCIe.x4 but is designed for Thunderbolt 4 / USB4 PCIe cards. </br>
 Those cards are a "Must have" If you like to Boot different Linux distros from USB4 at 40Gbps </bt>
 some boards also have USB3.2 2x2 20Gbps, but requires a optional "Not included bracket" </br>
