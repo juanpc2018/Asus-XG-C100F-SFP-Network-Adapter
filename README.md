@@ -48,7 +48,9 @@ For Proper thermal transfer, Heatsink needs to make direct contact to the IC wit
 but Heatsink cannot be lowered without causing a short, </br>
 unless its drilled in those exact places to make room for the coils & other componets. </br>
 
-Other option is to lower 1mm the standoffs, and use a thinner thermal pad that touces all components of the PCB "U" </br>
+Other options: </br>
+B) lower 1mm the standoffs, and use a thinner thermal pad that touces all components of the PCB "U" </br>
+C) use a small square flat copper "coin/penny" the size of the IC or a tiny bit bigger 2mm tall with thermal paste. </br>
 
 ### Alternatives:
 
