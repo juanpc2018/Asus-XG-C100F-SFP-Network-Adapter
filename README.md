@@ -68,9 +68,17 @@ Newer versions should be: </br>
 PCIe.v4.x2 </br>
 PCIe.v5.x1 </br>
 
-intel 12,13,14 LGA1700 has 20 lanes, AM5 has 24 PCIe lanes. </br>
+PCIe.v3.x4 has [3.938GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 31.5 Gbp/s </br>
+PCIe.v2.x4 has [2.0 GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 16 Gbp/s </br>
+
+placing a card designed for v2 or v3 PCIe lanes on a PCIe v4 or v5 board does Not become magically v4 or v5. </br>
+the boards simply autodetects the speed and runs slower. </br>
+can be forced on the UEFI, but electric signals & protocols are Not the same. </br>
+
+intel 12,13,14gen LGA1700 has 20 lanes, AM5 has 24 PCIe lanes. </br>
 Older boards used special PCIe bifurcation IC's like Nvidia NF200 to have more PCIe.x16.v2 lanes. </br>
 modern boards can be upgraded to have more PCIe.v5 & v4 lanes with PCIe expansion chassis. </br>
+but are not cheap. </br>
 
 most modern boards today: </br>
 Z790, Z890, X680e, B650 have 1x or 2x PCIe.x1 that are near useless for today technology. </br>
@@ -81,6 +89,12 @@ or move PCIe cards using TB3 eGPU extenal chasis to other machines. </br>
 some boards also have USB3.2 2x2 20Gbps, but requires an optional "Not included bracket" </br>
 Out of the Box: USB3.2 2x2 does Not work, if case does Not have the weird connector. </br>
 
-purchasing an external PCIe chassis for 1x card? TB3/4 or direct PCIe </br>
+purchasing an external PCIe chassis for 1x card? 
+TB3/4 eGPU chassis or direct PCIe external chassis ? </br>
 ¿using the x4 slot? ¿Not use TB4/USB4 card? </br>
-it gets tricky. </br>
+Thunderbolt card probably cannot be used on the external PCIe chassis. </br>
+Nor on the TB3 eGPU chasis. </br>
+it gets tricky to expand modern boards. </br>
+
+The baord Z790 or x670 or B650: </br>
+must have dual x4 slots, one dedicated only for the TB4/USB4 card. </br>
