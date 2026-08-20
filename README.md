@@ -58,7 +58,7 @@ much easy & better thermal sollution, but Sonnet discontinued the 10G Solo v1. <
 The New Sonnet 10G Solo v2 is Not the same, has different Intel IC </br>
 
 ### The 2nd Problem: 
-Newer High-End Gamer boards have faster PCIe.v5 but less PCIe lanes, </br>
+Newer High-End Gamer boards have Faster PCIe.v5 but less PCIe lanes, </br>
 "older cards" are not updated for faster PCIe. </br>
 ASUS XG-C100F/C is PCIe.v2/v3.x4 </br>
 Sonnet 10G Solo.v1 is PCIe.v3.x4 </br>
