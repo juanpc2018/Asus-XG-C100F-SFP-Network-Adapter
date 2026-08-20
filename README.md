@@ -37,8 +37,8 @@ Heatsink distance is Fixed, has round standoffs, does Not have springs like othe
 but if the spring are Not strong enough, thermal transfer also lowers. </br>
 
 Asus XG Heatsink is Extruded aluminum, for easy manufacture... </br>
-is over all the PCB, exept the SFP+ cage, "U" </br>
-at the factory its a very long bar cut like 3.5"x2.0"bread slices for each card. </br>
+is over all the PCB, exept the SFP+ cage "U" </br>
+at the factory its a very long bar cut like 3.5" x2.0" bread slices for each card. </br>
 Bracket is 0.725" but Heastsink is a few milimeters shorter = could be taller / bigger = </br>
 there is room for improvement, but has a "safe margin". </br>
 
@@ -61,18 +61,22 @@ The New Sonnet 10G Solo v2 is Not the same, has different Intel IC </br>
 Newer High-End Gamer boards have Faster PCIe.v5 but less PCIe lanes, </br>
 "older cards" are not updated for faster PCIe. </br>
 ASUS XG-C100F/C is PCIe.v2/v3.x4 </br>
-Sonnet 10G Solo.v1 is PCIe.v3.x4 </br>
-Sonnet 10G Solo.v2 is PCIe.v3.x8 = a "Dual SFP+ cage" without the 2nd SFP+ </br>
+Sonnet 10G Solo.v1 is PCIe.v2/v3.x4 </br>
+Sonnet 10G Solo.v2 is PCIe.v2/v3.x8 = a "Dual SFP+ card" without the 2nd SFP+ </br>
 
 Newer versions should be: </br>
 PCIe.v4.x2 </br>
 PCIe.v5.x1 </br>
 
-PCIe.v3.x4 has [3.938GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 31.5 Gbp/s </br>
+PCIe.v3.x4 has [3.938 GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 31.5 Gbp/s </br>
 PCIe.v2.x4 has [2.0 GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 16 Gbp/s </br>
+PCIe.v2.x8 has [4.0 GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 32 Gbp/s </br>
+PCIe.v3.x8 has [7.877 GB/s](https://en.wikipedia.org/wiki/PCI_Express#Comparison_table) = 63 Gbp/s </br>
 
-placing a card designed for v2 or v3 PCIe lanes on a PCIe v4 or v5 board does Not become magically v4 or v5. </br>
-the boards simply autodetects the speed and runs slower. </br>
+The card is 10G Full Duplex = 20Gbp/s per SFP+ </br>
+
+placing a card designed for v2 or v3 PCIe lanes on a PCIe v4 or v5 does Not become magically v4 or v5. </br>
+the boards autodetects the speed and runs slower. </br>
 can be forced on the UEFI, but electric signals & protocols are Not the same. </br>
 
 intel 12,13,14gen LGA1700 has 20 lanes, AM5 has 24 PCIe lanes. </br>
