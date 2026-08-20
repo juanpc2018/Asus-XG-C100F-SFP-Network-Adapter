@@ -1,6 +1,6 @@
 # Asus [XG-C100F](https://www.asus.com/networking-iot-servers/wired-solutions/all-series/xg-c100f/) SFP+ Network Adapter
 
-Based on the Aquantia AQC10x Chipset Now owned Marvell </br>
+Based on the Aquantia AQC10x Chipset Now owned by Marvell </br>
 works nice, has nice [Linux public drivers](https://www.marvell.com/support/downloads.html) but creates a lot of Heat. </br>
 Asus also made a sister card with RJ45 [XG-C100C](https://www.asus.com/networking-iot-servers/wired-solutions/all-series/xg-c100c/) No SFP+ cage. </br>
 
