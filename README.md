@@ -50,7 +50,8 @@ unless its drilled in those exact places to make room for the coils & other comp
 
 Other options: </br>
 B) lower 1mm the standoffs, and use a thinner thermal pad that touces all components of the PCB "U" </br>
-C) use a small square flat copper "coin/penny" the size of the IC or a tiny bit bigger 2mm tall with thermal paste. </br>
+C) use a small square copper "coin/penny" the size of the IC but flat, or a bit bigger, </br>
+2mm or 3mm tall with thermal paste on both sides to raise the heatsink. </br>
 
 ### Alternatives:
 
