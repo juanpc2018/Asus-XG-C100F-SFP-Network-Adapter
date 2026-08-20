@@ -34,7 +34,7 @@ but still the heatsink overheats like crazy. </br>
 That AQC IC is on Fire, the Red color is Not a coincidence. </br>
 
 Heatsink distance is Fixed, has round standoffs, does Not have springs like other heatsinks. </br>
-but if the spring are Not strong enough, thermal transfer efficieny also lowers. </br>
+but if the spring are Not strong enough, thermal transfer also lowers. </br>
 
 Asus XG Heatsink is Extruded aluminum, for easy manufacture... </br>
 is over all the PCB, exept the SFP+ cage, "U" </br>
