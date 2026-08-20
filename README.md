@@ -2,20 +2,20 @@
 
 Based on the Aquantia AQC10x Chipset Now owned Marvell </br>
 works nice, has nice [Linux public drivers](https://www.marvell.com/support/downloads.html) but creates a lot of Heat. </br>
-Asus also made a sister card with RJ45 Only [XG-C100C](https://www.asus.com/networking-iot-servers/wired-solutions/all-series/xg-c100c/) No SFP+ cage. </br>
+Asus also made a sister card with RJ45 [XG-C100C](https://www.asus.com/networking-iot-servers/wired-solutions/all-series/xg-c100c/) No SFP+ cage. </br>
 
 i had many problems in the past with RJ45 connectors, the plastic tab breaks too easy, </br>
 some brands of connectors, save cost on manufacture: the pastic is "the same size", </br>
-but the copper blades that cut the cables and touch the RJ45 connector are smaller. </br>
+but the copper blades inside that cut the cables and touch the RJ45 connector are smaller. </br>
 
-i wanted to try Fiber optic because i had good times with ADAT Optical Light Pipe. </br>
+wanted to try Fiber optic because i had good memories with ADAT Optical Light Pipe. </br>
 
 ### The Problem:
 
 The Card Overheats if case fans are less than 1500rpm </br>
-When cards Overheats too much, it shuts down "self-protect" and freeze the PC </br>
+When cards Overheats too much, too long, it shuts down "self-protect" and freeze the PC </br>
 
-This is about understanding why Overheats, what will happen on the future, and how to solve it. </br>
+This is Review about understanding why Overheats, what will happen, and how to solve it. </br>
 
 ### The Future is Clear: 
 High temperature = Shorter Life = Fail. </br>
@@ -26,26 +26,27 @@ PCB is also Nice Red. </br>
 Eye Candy. </br>
 
 The problem is that the Heatsink is too far apart from the AQC IC, </br>
-milimeters are kilometers at that scale. </br>
+millimeters are kilometers at that scale. </br>
 has a thermal pad "low thermal transfer" >2mm or more, </br>
-that barely makes contact / pressure with the heatsink "even low thermal transfer". </br>
-and still the heatsink overheats like crazy. </br>
+that barely makes contact / pressure with the heatsink "even lower thermal transfer". </br>
+but still the heatsink overheats like crazy. </br>
 
 That AQC IC is on Fire, the Red color is Not a coincidence. </br>
 
 Heatsink distance is Fixed, has round standoffs, does Not have springs like other heatsinks. </br>
 The reason is because Heatsink is Extruded aluminum, for easy manufacture... </br>
-is over all the PCB, exept the SFP+ cage, </br>
+is over all the PCB, exept the SFP+ cage, "U" </br>
 at teh factory its a very long bar cut like 3.5"x2.0"bread slices for each card. </br>
-Bracket is 0.725" but Heastsink is a few milimeters shorter = could be taller / bigger </br>
+Bracket is 0.725" but Heastsink is a few milimeters shorter = could be taller / bigger = </br>
 there is room for improvement. </br>
 
-PCB has 2 coils taller vs. the AQC10x IC, something else, capacitors & other IC's </br>
-The idea is to make direct contact: Heatsink-to->IC with thermal paste </br>
-Heatsink cannot be lowered without causing a short, </br>
+PCB has 2 coils taller vs. the AQC10x IC, capacitors & other IC's </br>
+
+For Proper thermal transfer, Heatsink needs to make direct contact with thermal paste </br>
+but Heatsink cannot be lowered without causing a short, </br>
 unless its drilled in those exact places to make room for the coils & other componets. </br>
 
-Other option is to lower 1mm the standoffs, and use a thinner thermal pad that touces all components of the PCB. </br>
+Other option is to lower 1mm the standoffs, and use a thinner thermal pad that touces all components of the PCB "U" </br>
 
 ### Alternatives:
 
@@ -58,14 +59,16 @@ The New Sonnet 10G Solo v2 is Not the same, had different Intel IC </br>
 Newer High.End Gamer boards have faster PCIe.v5 but less PCIe lanes available, </br>
 and "older cards" are not updated for New faster PCIe. </br>
 ASUS XG-C100F/C is PCIe.v3.x4 </br>
-Sonnet 10G Solo is PCIe.v3.x4 </br>
+Sonnet 10G Solo.v1 is PCIe.v3.x4 </br>
+Sonnet 10G Solo.v2 is PCIe.v3.x8 = a "Dual SFP+ cage" card without the 2nd SFP+ </br>
+
 Newer versions should be: </br>
 PCIe.v4.x2 </br>
 PCIe.v5.x1 </br>
 
 intel 12,13,14 LGA1700 has 20 lanes, AM5 has 24 PCIe lanes. </br>
-Older boards used special PCIe bifurcation IC's like Nvidia NF200 to have more PCIe lanes. </br>
-modern boards can also be upgraded to have more PCIe lanes with PCIe expansion chassis. </br>
+Older boards used special PCIe bifurcation IC's like Nvidia NF200 to have more PCIe.x16.v2 lanes. </br>
+modern boards can also be upgraded to have more PCIe.v5 & .v4 lanes with PCIe expansion chassis. </br>
 
 most modern boards today: </br>
 Z790, Z890, X680e, B650 boards have PCIe.x1 that is near useless for today technology. </br>
@@ -74,5 +77,7 @@ Those cards are a "Must have" If you like to Boot different Linux distros from U
 or move PCIe cards using TB3 eGPU extenal chasis to other machines. </br>
 
 some boards also have USB3.2 2x2 20Gbps, but requires a optional "Not included bracket" </br>
-Out of the Box, USB3.2 2x2 does Not work, if your case does Not have the weird connector. </br>
+Out of the Box, USB3.2 2x2 does Not work, if the case does Not have the weird connector. </br>
 
+purchasing a external chassis for 1x card? using the x4 slot and Not use TB4/USB4 card? </br>
+it gets tricky. </br>
