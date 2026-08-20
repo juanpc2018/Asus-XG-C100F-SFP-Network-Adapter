@@ -55,7 +55,7 @@ Other option is to lower 1mm the standoffs, and use a thinner thermal pad that t
 AQC IC is very nice... was also used in Sonnet 10G Solo card, </br>
 the Original 10G Solo had a smaller but taller heatsink only for the Aquantia IC. </br>
 much easy & better thermal sollution, but Sonnet discontinued the 10G Solo v1. </br>
-The New Sonnet 10G Solo v2 is Not the same, had different Intel IC </br>
+The New Sonnet 10G Solo v2 is Not the same, has different Intel IC </br>
 
 ### The 2nd Problem: 
 Newer High-End Gamer boards have faster PCIe.v5 but less PCIe lanes, </br>
