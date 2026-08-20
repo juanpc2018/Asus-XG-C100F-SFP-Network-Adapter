@@ -107,12 +107,14 @@ but the main PCIe.v5.x16 is also "shared" with the M.2 PCIe.v5.x4 </br>
 
 when sharing lanes, "bifurcation" and you change the M.2 card from v5 to v4 UEFI goes crazy, </br>
 thinks its a short circuit "self-protects" does Not turn-on, after many attempts / time, </br>
-boots again, but takes a lot of time doing on a Black Scren, doing "self-tests", before going to UEFI boot menu. </br>
+boots again, but takes a lot of time on a Black Scren doing "self-tests", before going to UEFI boot menu. </br>
 
 in my experience is Not a good idea to share / bifurcate PCIe lanes, and change M.2 drive. </br>
 is much better to use a PCIe.x4 to M.2 NVMe card to swap OS / Boot drives. </br>
 boots instantly, does Not go crazy, works flawless. </br>
-but you lose the M.2 PCIe.v5 at Full speed, must go back to v4, but feels better Not sharing lanes. </br>
+
+you lose the M.2 PCIe.v5 at Full speed, must go back to v4, but feels better Not sharing lanes. </br>
 you get gray hair on the "self-protection" phase & loose time on the "self-test" phase. </br>
+
 M.2 v5 is faster, but if something goes wrong, UEFI goes crazy, because its bifurcated / sharing lanes. </br>
-using an external PCIe.v5 chassis should have no problems swapping M2 drives on PCIe cards. </br>
+using an external PCIe.v5 chassis should have No problems swapping M2 drives on PCIe cards. </br>
