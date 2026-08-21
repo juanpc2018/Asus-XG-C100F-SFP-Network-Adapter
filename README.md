@@ -122,6 +122,13 @@ you get gray hair on the "self-protection" phase & loose time on the "self-test"
 M.2 v5 is faster, but if something goes wrong, UEFI goes crazy, because its bifurcated / sharing lanes. </br>
 using an external PCIe.v5 chassis should have No problems swapping M2 drives on PCIe cards. </br>
 
+### Thunderbolt vs. Direct PCIe card vs. Both </bt>
+Direct PCIe is always better, but more High-End. </br>
+Thunderbolt3/4/5 eGPU is more consumer / gamer. </br>
+
+Thunderbolt [eGPU.io list](https://egpu.io/best-egpu-buyers-guide/) </br>
+
+#### Direct PCIe: </br>
 [RocketStor 8631D:](https://www.highpoint-tech.com/gen5-copprlink-enclosure) </br>
 1x internal PCIe.v5.x16 -to-> 1x external PCIe.v5.x16 </br>
 [Razer Core X-Chroma:](https://www.razer.com/mena-en/gaming-laptops/razer-core-x) </br>
