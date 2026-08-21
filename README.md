@@ -47,9 +47,9 @@ PCB has 2 coils taller vs. the AQC10x IC, capacitors & other IC's </br>
 
 For Proper thermal transfer, Heatsink needs to make direct contact to the IC with thermal paste </br>
 but Heatsink cannot be lowered without causing a short or physical damage. </br>
-Options: </br>
+**Options:** </br>
 A) Lower standoffs at lowest possible: </br>
-Drill Holes on the Heatsink at exact places to make room for the coils & other componets. </br>
+Drill Holes probably 1/4" on the Heatsink at exact places to make room for the coils & other componets. </br>
 B) Lower 1mm the standoffs: </br>
 use a thinner thermal pad that touch all components of the PCB & Heatsink "U" </br>
 C) Raise the Heatsink 1mm: </br>
@@ -57,6 +57,11 @@ replace the thermal pad with a 3mm flat / small square copper "coin/penny/bullio
 same size of the IC or a bit bigger, & thermal paste on both sides of the copper bullion. </br>
 probably replace the 4x screws with a bit longer + o-rings if needed. </br>
 Aluminium could work, but copper has better [Thermal Conductivity](https://koolance.com/cooling101-heat-transfer) </br>
+D) a combination of the previous + remove completely the 4x standoffs: </br>
+drill 1/8" holes or smaller in the exact same place of the standoffs on the heatsink, </br>
+use longer 4x screws + 8x o-rings + 4x springs + 4x safety [Locknuts](https://en.wikipedia.org/wiki/Locknut) </br>
+The head of the screws on the back of the pcb & safety nuts on the top of the heatsink or backwards, </br> 
+could work but must not touch other PCIe cards, front & back. </br>
 
 ### Alternatives:
 AQC IC is very nice... was also used in Sonnet 10G Solo card, </br>
