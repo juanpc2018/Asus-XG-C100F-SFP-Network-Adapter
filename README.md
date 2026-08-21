@@ -131,3 +131,7 @@ using an external PCIe.v5 chassis should have No problems swapping M2 drives on 
 Magma expansaion chassis were very popular during the ProTools TDM, HD era, </br>
 Now owned by OneStopSystems, older Magma chassis like EB7 were PCIe.v2 </br>
 [PCIe expansion](https://onestopsystems.com/collections/expansion) </br>
+Host/Target PCIe cards: </br>
+[PCIe.v4.x16](https://onestopsystems.com/products/pcie-x16-gen-4-cable-adapter) </br>
+[PCIe.v3.x16](https://onestopsystems.com/products/pcie-x16-gen3-ipass-cable-adapter) </br>
++ cables + Backplane board. </br>
