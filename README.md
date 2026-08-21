@@ -51,11 +51,11 @@ Options: </br>
 A) Lower standoffs at lowest possible: </br>
 Drill Holes on the Heatsink at exact places to make room for the coils & other componets. </br>
 B) Lower 1mm the standoffs: </br>
-use a thinner thermal pad that touces all components of the PCB & Heatsink "U" </br>
-C) Raise the Heatsink 1mm </br>
-replace the thermal pad with a 3mm flat / small square copper "coin/penny" </br>
-same size of the IC or a bit bigger, & thermal paste on both sides of the copper. </br>
-probably replace th 4x screws with a bit longer + o-rings if needed. </br>
+use a thinner thermal pad that touch all components of the PCB & Heatsink "U" </br>
+C) Raise the Heatsink 1mm: </br>
+replace the thermal pad with a 3mm flat / small square copper "coin/penny/bullion" </br>
+same size of the IC or a bit bigger, & thermal paste on both sides of the copper bullion. </br>
+probably replace the 4x screws with a bit longer + o-rings if needed. </br>
 Aluminium could work, but copper has better [Thermal Conductivity](https://koolance.com/cooling101-heat-transfer) </br>
 
 ### Alternatives:
