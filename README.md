@@ -122,7 +122,7 @@ you get gray hair on the "self-protection" phase & loose time on the "self-test"
 M.2 v5 is faster, but if something goes wrong, UEFI goes crazy, because its bifurcated / sharing lanes. </br>
 using an external PCIe.v5 chassis should have No problems swapping M2 drives on PCIe cards. </br>
 
-### Thunderbolt vs. Direct PCIe card vs. Both </bt>
+### Thunderbolt vs. Direct PCIe expansion vs. Both </bt>
 Direct PCIe is always better, but more High-End. </br>
 Thunderbolt3/4/5 eGPU is more consumer / gamer. </br>
 
