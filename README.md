@@ -108,7 +108,7 @@ Nor on the TB3 eGPU chasis. </br>
 it gets tricky to expand modern boards. </br>
 
 The board Z790, x670 or B650: </br>
-msome boards have dual x4/x4 slots, one dedicated only for the TB4/USB4 card. </br>
+some boards have dual x4/x4 slots, one dedicated only for the TB4/USB4 card. </br>
 some high-end boards allow dual x8/x8.v5 instead of the main PCIe.v5.x16 </br>
 but the main PCIe.v5.x16 is also "shared" with the M.2 PCIe.v5.x4 </br>
 
@@ -121,7 +121,7 @@ is much better to use a PCIe.x4 to M.2 NVMe card to swap OS / Boot drives. </br>
 boots instantly, does Not go crazy, works flawless. </br>
 
 you lose the M.2 PCIe.v5 at Full speed, must go back to v4, but feels better Not sharing lanes. </br>
-you get gray hair on the "self-protection" phase & loose time on the "self-test" phase. </br>
+you get gray hair & loose time on the "self-protection" & "self-test". </br>
 
 M.2 v5 is faster, but if something goes wrong, UEFI goes crazy, because its bifurcated / sharing lanes. </br>
 using an external PCIe.v5 chassis should have No problems swapping M2 drives on PCIe cards. </br>
