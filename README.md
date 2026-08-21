@@ -134,4 +134,8 @@ Now owned by OneStopSystems, older Magma chassis like EB7 were PCIe.v2 or PCI-X 
 Host/Target PCIe cards: </br>
 [PCIe.v4.x16](https://onestopsystems.com/products/pcie-x16-gen-4-cable-adapter) </br>
 [PCIe.v3.x16](https://onestopsystems.com/products/pcie-x16-gen3-ipass-cable-adapter) </br>
-+ cables + Backplane board. </br>
+(+) cables + Backplane board. </br>
+The other extreme are the Startech: </br>
+[Large](https://www.startech.com/en-us/cards-adapters/4pcie-pcie-enclosure) PCIe.v2.x2 -to-> 4x PCIe.x1 </br>
+[Small](https://www.startech.com/en-us/cards-adapters/pex2pci4) 1x PCIe.x1 -to-> 4x PCI 32-Bit </br>
+[Large](https://www.startech.com/en-us/cards-adapters/pex2pcie4l) 1x PCIe -to-> 2x PCIe.x1 + 2x PCI 32-bit </br>
