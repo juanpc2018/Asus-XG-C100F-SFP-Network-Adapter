@@ -128,3 +128,6 @@ using an external PCIe.v5 chassis should have No problems swapping M2 drives on 
 1x Thunberbolt3 -to-> 1x external PCIe.v3.x16 </br>
 [Razer Core X](https://www.razer.com/mena-en/gaming-egpus/razer-core-x-v2) [V2:](https://mysupport.razer.com/app/answers/detail/a_id/14797/~/razer-core-x-v2-%7C-rc21-0227-support-%26-faqs) </br>
 1x Thunberbolt5/4 -to-> 1x external PCIe.v4.x16 </br>
+Magma expansaion chassis were very popular during the ProTools TDM, HD era, </br>
+Now owned by OneStopSystems, older Magma chassis like EB7 were PCIe.v2 </br>
+[PCIe expansion](https://onestopsystems.com/collections/expansion) </br>
