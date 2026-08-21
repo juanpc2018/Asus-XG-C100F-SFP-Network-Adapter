@@ -15,7 +15,7 @@ wanted to try Fiber optic because i had good memories with ADAT Optical Light Pi
 The Card Overheats if case fans are less than 1500rpm </br>
 When cards Overheats too much, too long, it shuts down "self-protect" and freeze the PC </br>
 
-This is Review about understanding why Overheats, what will happen, and how to solve it. </br>
+This Review is about understanding why Overheats, what will happen, and how to solve it. </br>
 
 ### The Future is Clear: 
 High temperature = Shorter Life = Fail. </br>
