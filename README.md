@@ -37,24 +37,28 @@ Heatsink distance is Fixed, has round standoffs, does Not have springs like othe
 but if the spring are Not strong enough, thermal transfer also lowers. </br>
 
 Asus XG Heatsink is Extruded aluminum, for easy manufacture... </br>
-is over all the PCB, exept the SFP+ cage "U" </br>
+covers all the PCB, exept the SFP+ cage "U" </br>
 at the factory its a very long bar cut like 3.5" x2.0" bread slices for each card. </br>
 Bracket is 0.725" but Heastsink is a few milimeters shorter = could be taller / bigger = </br>
 there is room for improvement, but has a "safe margin". </br>
 
 PCB has 2 coils taller vs. the AQC10x IC, capacitors & other IC's </br>
 
-For Proper thermal transfer, Heatsink needs to make direct contact to the IC with thermal paste </br>
-but Heatsink cannot be lowered without causing a short, </br>
-unless its drilled in those exact places to make room for the coils & other componets. </br>
 
-Other options: </br>
-B) lower 1mm the standoffs, and use a thinner thermal pad that touces all components of the PCB "U" </br>
-C) use a small square copper "coin/penny" the size of the IC but flat, or a bit bigger, </br>
-2mm or 3mm tall with thermal paste on both sides to raise the heatsink. </br>
+For Proper thermal transfer, Heatsink needs to make direct contact to the IC with thermal paste </br>
+but Heatsink cannot be lowered without causing a short or physical damage. </br>
+Options: </br>
+A) Lower standoffs at lowest possible: </br>
+Drill Holes on the Heatsink at exact places to make room for the coils & other componets. </br>
+B) Lower 1mm the standoffs: </br>
+use a thinner thermal pad that touces all components of the PCB & Heatsink "U" </br>
+C) Raise the Heatsink 1mm </br>
+replace the thermal pad with a 3mm flat / small square copper "coin/penny" </br>
+same size of the IC or a bit bigger, & thermal paste on both sides of the copper. </br>
+probably replace th 4x screws with a bit longer + o-rings if needed. </br>
+Aluminium could work, but copper has better [Thermal Conductivity](https://koolance.com/cooling101-heat-transfer) </br>
 
 ### Alternatives:
-
 AQC IC is very nice... was also used in Sonnet 10G Solo card, </br>
 the Original 10G Solo had a smaller but taller heatsink only for the Aquantia IC. </br>
 much easy & better thermal sollution, but Sonnet discontinued the 10G Solo v1. </br>
